@@ -1,0 +1,22 @@
+1. Install Python dependencies
+    - Recommended: Create a pip virtual environment with 
+        - `python -m venv env`
+        - `env\Scripts\activate`
+    - Install dependencies
+        - `pip install -r req.txt`
+    - Note: You may need to run this command if you are getting errors related to pywin32.
+        - `python Scripts/pywin32_postinstall.py -install`
+
+2. Gather Tools
+    - Run the gather script to assemble the bin folder containing ffmpeg, android platform-tools, and Amyuni's virtual display drivers.
+        - `python .\gather_tools.py`
+
+3. Run the Server (Allow run as admin)
+    - `python .\server.py`
+
+4. Connect client Android device via USB and open DisplayExtend client app.
+
+5. Additional display should be added. Enjoy.
+    - If nothing happens are opening app, try pressing Enter key in the shell window as it occasionally freezes.
+    - Only connect one Android device via USB at a time.
+    - Ensure server is running before connecting Client and opening app.
