@@ -5,6 +5,7 @@
     - Install dependencies
         - `pip install -r req.txt`
     - Note: You may need to run this command if you are getting errors related to pywin32.
+        - `cd env`
         - `python Scripts/pywin32_postinstall.py -install`
 
 2. Gather Tools
@@ -20,3 +21,8 @@
     - If nothing happens are opening app, try pressing Enter key in the shell window as it occasionally freezes.
     - Only connect one Android device via USB at a time.
     - Ensure server is running before connecting Client and opening app.
+
+6. Exit
+    - Simply close the window running the server.py script.
+    - Finally, clear out the virtual display by running the cleanup script.
+        - `python .\cleanup.py`
