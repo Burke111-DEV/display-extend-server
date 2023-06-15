@@ -63,4 +63,6 @@ The Display Extend Server project acknowledges the following tools and libraries
 
 - [Android SDK Platform-Tools](https://developer.android.com/studio/releases/platform-tools): Acknowledgements to the Android SDK Platform-Tools, which are included in the server program's `bin` folder and used for various development and debugging tasks, such as device communication and adb commands.
 
+- [ws-avc-player](https://github.com/matijagaspar/ws-avc-player) Library used on the client side to receive and render h264 frame data. It provides valuable functionality for efficient video playback and enhances the overall performance of the client application.
+
 Please note that the Display Extend Server project does not claim ownership or endorse these tools directly.
